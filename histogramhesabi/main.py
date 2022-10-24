@@ -4,7 +4,7 @@ from matplotlib import pyplot as plt
 import matplotlib.image as mpimg
 from numpy import zeros, shape
 
-foto=cv2.imread("indir.jpg",0)
+foto=cv2.imread("indir.jpg",0)#histogram dizisindeki indeksler tam sayı olduğundan parametreye 0 vererek gri seviye görüntüyü elde ettim.Amaç pikselleri tam sayı olarak almaktır.
 
 cv2.imshow("resim",foto)
 
