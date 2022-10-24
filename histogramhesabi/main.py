@@ -28,7 +28,8 @@ for i in range(0,256):
     print(histogram[i])
 
 
-
+plt.plot(histogram)
+plt.show()
 
 
 
